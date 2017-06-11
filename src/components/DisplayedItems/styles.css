@@ -1,0 +1,14 @@
+.prodCont{
+  width: 80%;
+  box-sizing: border-box;
+  margin:0 auto;
+}
+
+@media screen
+  and (min-device-width: 320px)
+  and (max-device-width: 640px)
+ {
+   .prodCont{
+     width:100%;
+   }
+}

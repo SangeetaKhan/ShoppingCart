@@ -1,0 +1,9 @@
+.root {
+  box-shadow: 1px 0 20px #ffff;
+  color: #000000;
+  background: #ffffff;
+  font-family: 'Helvetica';
+  width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+}

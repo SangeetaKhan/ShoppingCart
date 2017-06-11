@@ -1,0 +1,43 @@
+.addCont{
+  overflow: hidden;
+  height: 70px;
+  background: #efefef;
+  font-size:12px;
+  color: #585353;
+}
+.addCont  button{
+  border: 1px solid rgb(33,150,243);
+  background: #ffffff;
+  color:rgb(33,150,243);
+  border-radius: 2px;
+}
+.itemName{width: 100%;margin: 10px 0px 0px 10px;}
+.itemPrice{
+  float: left;
+  width: 40%;
+  margin: 10px 0px 0px 10px;
+}
+.addTocart,.addMore{
+  width: 40%;
+  float: right;
+  margin: 10px;
+}
+.addMore button{
+  width:30px;
+}
+.minItems{border-right:none !important;}
+.plusItem{border-left:none !important;}
+.total{border-radius:0 !important;}
+.itemPrice strike{
+  color: #E91E63;
+  font-style: italic;
+  padding-right: 5px;
+}
+
+.clearfix {clear: both;}
+@media screen
+  and (min-device-width: 320px)
+  and (max-device-width: 640px)
+ {
+   .cartButton{width: 100%;}
+}
